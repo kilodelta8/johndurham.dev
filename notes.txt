@@ -1,0 +1,8 @@
+#Virtual Environment
+    virtualenv env
+    \path\to\env\Scripts\activate
+    deactivate
+
+#Dependencies
+    pip freeze > requirements.txt
+    (<env_name>)$ pip install -r path/to/requirements.txt
