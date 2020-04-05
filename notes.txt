@@ -1,6 +1,11 @@
-#Virtual Environment
+#Virtual Environment (WIN)
     virtualenv env
     \path\to\env\Scripts\activate
+    deactivate
+
+#Virtual Environment (LIN)
+    virtualenv env
+    source env/bin/activate
     deactivate
 
 #Dependencies

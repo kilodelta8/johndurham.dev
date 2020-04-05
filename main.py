@@ -18,7 +18,7 @@ app.secret_key = 'lamePass1234'  #TODO - change to environment variable
 
 #___________________ROUTES_____________________
 #home - landing page route
-@app.route('/home')
+@app.route('/')
 def home():
     #blog = Blog.query.order_by(Blog.pub_date.desc()).all()
     return render_template('home.html', title='JohnDurham.dev')
