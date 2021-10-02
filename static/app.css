@@ -1,3 +1,54 @@
+/*
+* App.css file for johndurham.dev, my developer webpage.
+* COMPLETELY a work in progress, unfortunately.
+* 10/2/21
+* jdurham937@gmail.com
+*/
+
+/* Under Construction Notice */
+body {
+    background-color: #555555;
+}
 .container {
     text-align: center;
+    background-color: #555555;
+    color: rgb(152, 243, 33);
+    text-decoration: none;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
+img {
+    float: left;
+    margin-right: 15px;
+    width:340px;
+    height: auto;
+    border-radius: 75%;
+}
+
+
+/*  ---NavBar---  */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
