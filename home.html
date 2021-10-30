@@ -6,28 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- Add icon library for social media -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>John Durham</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Radio</a></li>
-            <li><a href="#">Music</a></li>
-        </ul>
-    </nav>
-
-
+    <div class="nav">
+        <nav id="top">
+            <ul>
+                <li><a href="./projects.html">Projects<span class="material-icons-outlined">code</span></a></li>
+                <li><a href="#about">About<span class="material-icons-outlined">info</span></a></li>
+                <li><a href="./hobbies.html">Hobbies<span class="material-icons-outlined">settings_accessibility</span></a></li>
+                
+            </ul>
+        </nav>
+    </div>
     <div class="container">
-        <img src="assets/me01.jpg" alt="Me singing to the mountains" />
-        <h1>UNDER CONSTRUCTION</h1>
-        <p>I sincerely apologize if you are seeing this page as <e>UNDER CONSTRUCTION</e>.</p>
-        <p>I will have the content up as soon as possible.</p>
-        <p>Until such time, please reach me via:</p>
-        <p><a href="https://www.linkedin.com/in/johnsdurham/">LinkedIn</a></p>
-        <p><a href="https://github.com/kilodelta8">Github</a></p>
-        <p>I am an aspiring software developer in Dayton, OH.  I am currently attending Sinclair Community College
+        <br/>
+        <br/>
+        <h1>Hi! I'm John!</h1>
+        <br/>
+        <br/>
+        <p>A Software Developer from Dayton, OH.</p>
+        <br/>
+        <p id="code">Let's code->
+        <a href="https://www.linkedin.com/in/johnsdurham/" class="fa fa-linkedin">  </a>
+        <a href="https://github.com/kilodelta8" class="fa fa-github">  </a>
+        <a href="https://twitter.com/KiloDelta8" class="fa fa-twitter">  </a>
+        </p>
+        <br/>
+        <br/>
+        <p id="about">I am an aspiring software engineer in Dayton, OH.  I am currently attending Sinclair Community College
             for an Associates of Science in Software Development.  I am a graduate of LaunchCode's Full Stack Web Development Bootcamp.
             I am well versed in C++ and Java with strong experience in Python and C#.
             I am always coding and working on a project(s) from a home Google Wall Calendar & Server to automating my garden/plants to
@@ -37,5 +51,6 @@
             I am also always excited for meetups, collaboration on projects, hackathons, etc.
         </p>
     </div>
+    <a href="#top" id="top-link">Back To The Top</a>
 </body>
 </html>

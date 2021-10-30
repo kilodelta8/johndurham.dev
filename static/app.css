@@ -8,34 +8,47 @@
 
 /* Under Construction Notice */
 body {
-    background-color: #555555;
+  font-family: 'Cabin', sans-serif;
+    background-image: linear-gradient(
+      to bottom right,
+      #4affde 0%, #5b9dff 40%, #d06bff 60%, #ff34d2 100%
+    );
+    background-size: 200% 200%;
+    animation: movingGradient 5s linear infinite alternate;
 }
+
+#code {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;;
+}
+
+@keyframes movingGradient {
+    from {background-position: 0 0;}
+    to   {background-position: 100% 100%;}
+}
+
 .container {
     text-align: center;
-    background-color: #555555;
-    color: rgb(152, 243, 33);
+    font-size: 24px;
+    /*color: rgb(152, 243, 33);*/
     text-decoration: none;
 }
 a {
     text-decoration: none;
-    color: white;
-}
-img {
-    float: left;
-    margin-right: 15px;
-    width:340px;
-    height: auto;
-    border-radius: 75%;
 }
 
 
 /*  ---NavBar---  */
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
   }
   
   li {
@@ -44,7 +57,7 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color:#111111;
     text-align: center;
     padding: 16px;
     text-decoration: none;
@@ -52,4 +65,66 @@ ul {
   
   li a:hover {
     background-color: #111111;
+    opacity: .4;
+    color: white;
   }
+
+  .material-icons-outlined {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+  /* social media icons */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25%;
+  }
+
+  /* Twitter */
+.fa-twitter {
+  background: black;
+  color: rgb(117, 227, 247);
+}
+
+/* LinkedIn */
+.fa-linkedin {
+  background: black;
+  color: rgb(117, 227, 247);
+}
+
+/* Github */
+.fa-github {
+  background: black;
+  color: rgb(117, 227, 247);
+}
+
+#top-link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
