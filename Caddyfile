@@ -1,0 +1,7 @@
+www.johndurham.dev {
+    redir https://johndurham.dev{uri}
+}
+
+johndurham.dev {
+    reverse_proxy localhost:8000
+}
