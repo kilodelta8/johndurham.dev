@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-import Me01 from './assets/ME.jepg';
-=======
 import cpp from './assets/cpp.png';
 import c from './assets/c.png';
 import csharp from './assets/csharp.png';
@@ -15,17 +12,13 @@ import Me from './assets/ME.jpeg';
 
 
 
->>>>>>> 96016f8528323ce86d2dcd616fe0eac07e7b96b7
+
 
 function Home() {
   return (<>
     <div className="container" id="main">
         <br/>
-<<<<<<< HEAD
-        <img src={ Me01 } alt="Me gleaming cheesily" style={{ width: '125px', height: '125px', borderRadius: '50%' }} />
-=======
         <img src={Me} alt="Me gleaming cheesily" style={{ width: '125px', height: '125px', borderRadius: '50%' }} />
->>>>>>> 96016f8528323ce86d2dcd616fe0eac07e7b96b7
         <br/>
         <h1>Hi! I'm John!</h1>
         <br/>
