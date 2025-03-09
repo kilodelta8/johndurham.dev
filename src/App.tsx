@@ -1,7 +1,7 @@
 import './App.css';
 import { Routes, Route, Link } from 'react-router-dom';
-import Hobbies from './Hobbies';
 import Home from './Home';
+import Hobbies from './Hobbies';
 import Projects from './Projects';
 
 

@@ -1,4 +1,7 @@
 
+import DaddiesOldNewToy from './assets/PursuitDarkHorse001.png';
+import DaddiesNewToy from './assets/DaddiesNewToy.png';
+
 
 function Hobbies() {
   return (
@@ -18,8 +21,8 @@ function Hobbies() {
               I am absolutely torn between the chrome or the black hardware (+$Left.Testical).
           </p>
           <div className="responsive-images">
-              <img src="./src/assets/DaddiesNewToy.png" alt="Motorcycling Image 1" className="responsive-img" />
-              <img src="./src/assets/PursuitDarkHorse001.png" alt="Motorcycling Image 2" className="responsive-img" />
+              <img src={ DaddiesOldNewToy } alt="Motorcycling Image 1" className="responsive-img" />
+              <img src={ DaddiesNewToy } alt="Motorcycling Image 2" className="responsive-img" />
           </div>
       </div>
       <br />

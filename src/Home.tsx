@@ -1,10 +1,31 @@
+<<<<<<< HEAD
 import Me01 from './assets/ME.jepg';
+=======
+import cpp from './assets/cpp.png';
+import c from './assets/c.png';
+import csharp from './assets/csharp.png';
+import react from './assets/react.png';
+import typescript from './assets/typescript.png';
+import linux from './assets/linux.png';
+import api from './assets/api.png';
+import mysql from './assets/mysql.png';
+import python from './assets/python.png';
+import docker from './assets/docker.png'; 
+import Me from './assets/ME.jpeg';
+
+
+
+>>>>>>> 96016f8528323ce86d2dcd616fe0eac07e7b96b7
 
 function Home() {
   return (<>
     <div className="container" id="main">
         <br/>
+<<<<<<< HEAD
         <img src={ Me01 } alt="Me gleaming cheesily" style={{ width: '125px', height: '125px', borderRadius: '50%' }} />
+=======
+        <img src={Me} alt="Me gleaming cheesily" style={{ width: '125px', height: '125px', borderRadius: '50%' }} />
+>>>>>>> 96016f8528323ce86d2dcd616fe0eac07e7b96b7
         <br/>
         <h1>Hi! I'm John!</h1>
         <br/>
@@ -35,16 +56,16 @@ function Home() {
         <p><b>NOTE:</b> I am in the process of changing this site from Flask to React and adding several other features and projects.</p>
         <br />
         <div>
-            <img src="./src/assets/cpp.png" alt="C++ programming language" style={{width: '55px', height: '55px'}} />
-            <img src="./src/assets/c.png" alt="C programming language" style={{width: '50px', height: '50px'}} />
-            <img src="./src/assets/csharp.png" alt="C# programming language" style={{width: '50px', height: '50px'}} />
-            <img src="./src/assets/react.png" alt="React framework" style={{width: '50px', height: '50px'}} />
-            <img src="./src/assets/typescript.png" alt="Typescript programming language" style={{width: '45px', height: '45px'}} />
-            <img src="./src/assets/linux.png" alt="Linux logo" style={{width: '50px', height: '50px'}} />
-            <img src="./src/assets/api.png" alt="API logo" style={{width: '50px', height: '50px'}} />
-            <img src="./src/assets/mysql.png" alt="MySQL logo" style={{width: '57px', height: '57px'}} />
-            <img src="./src/assets/python.png" alt="Python programming language" style={{width: '50px', height: '50px'}} />
-            <img src="./src/assets/docker.png" alt="Docker logo" style={{width: '50px', height: '50px'}} />
+            <img src={cpp} alt="C++ programming language" style={{width: '55px', height: '55px'}} />
+            <img src={c} alt="C programming language" style={{width: '50px', height: '50px'}} />
+            <img src={csharp} alt="C# programming language" style={{width: '50px', height: '50px'}} />
+            <img src={react} alt="React framework" style={{width: '50px', height: '50px'}} />
+            <img src={typescript} alt="Typescript programming language" style={{width: '45px', height: '45px'}} />
+            <img src={linux} alt="Linux logo" style={{width: '50px', height: '50px'}} />
+            <img src={api} alt="API logo" style={{width: '50px', height: '50px'}} />
+            <img src={mysql} alt="MySQL logo" style={{width: '57px', height: '57px'}} />
+            <img src={python} alt="Python programming language" style={{width: '50px', height: '50px'}} />
+            <img src={docker} alt="Docker logo" style={{width: '50px', height: '50px'}} />
         </div>
     </div>
     <br />

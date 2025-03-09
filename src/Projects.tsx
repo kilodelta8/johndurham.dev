@@ -1,3 +1,5 @@
+import OldWeb from './assets/jdDev001.png';
+
 
 
 function Projects() {
@@ -35,7 +37,7 @@ function Projects() {
                     As you can see (and if your new, see the attached pic) I am now running a React app for my personal website.  I am
                     even stealing the styling from the basic React-App.
                 </p>
-                    <img src="./src/assets/jdDev001.png" alt="The old johndurham.dev" style={{width: '250px', height: '150px'}} />
+                    <img src={OldWeb} alt="The old johndurham.dev" style={{width: '250px', height: '150px'}} />
                 <p>
                     I plan to haven account login, commenting, mail preferences added soon.
                     I am thinking about testing the qQSL API from this website before luanching the app and site specific API.
