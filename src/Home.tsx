@@ -1,10 +1,10 @@
-
+import Me01 from './assets/ME.jepg';
 
 function Home() {
   return (<>
     <div className="container" id="main">
         <br/>
-        <img src='./src/assets/ME.jpeg' alt="Me gleaming cheesily" style={{ width: '125px', height: '125px', borderRadius: '50%' }} />
+        <img src={ Me01 } alt="Me gleaming cheesily" style={{ width: '125px', height: '125px', borderRadius: '50%' }} />
         <br/>
         <h1>Hi! I'm John!</h1>
         <br/>
